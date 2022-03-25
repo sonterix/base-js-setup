@@ -1,0 +1,16 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 13,
+    "sourceType": "script"
+  },
+  "env": {
+    "browser": true
+  },
+  "plugins": ["prettier"],
+  "extends": ["eslint:recommended", "airbnb-base", "prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off"
+  }
+}
